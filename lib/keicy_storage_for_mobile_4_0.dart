@@ -58,7 +58,7 @@ class KeicyStorageForMobile {
     var listFileName = fileName.split('.');
     if (listFileName.length == 1) return "${fileName}_${Random().nextInt(10000000).toString()}";
     String extention = listFileName[listFileName.length - 1];
-    String fName = fileName.substring(0, fileName.length - extention.length - 2);
+    String fName = fileName.substring(0, fileName.length - extention.length - 1);
     return "${fName}_${Random().nextInt(10000000).toString()}.$extention";
   }
 
