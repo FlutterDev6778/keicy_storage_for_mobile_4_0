@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  firebase_storage: ^4.0.0
+  firebase_storage: 4.0.0
   keicy_utils:
     git: https://github.com/FlutterDev6778/keicy_utils.git
 
